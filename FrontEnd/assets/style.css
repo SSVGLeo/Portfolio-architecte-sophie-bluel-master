@@ -95,6 +95,10 @@ nav li {
 	font-size: 1.2em;
 }
 
+nav li img {
+	max-width: 20px;
+}
+
 li:hover {
 	color: #B1663C;
 }
