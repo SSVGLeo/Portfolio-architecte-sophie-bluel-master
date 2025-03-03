@@ -52,6 +52,7 @@ body {
 	margin:auto;
 	font-family: 'Work Sans' ;
 	font-size: 14px;
+	background-color: #FFFEF8;
 }
 header {
 	display: flex;
@@ -60,6 +61,10 @@ header {
 }
 section {
 	margin: 50px 0
+}
+a {
+	text-decoration: none;
+	color: black
 }
 
 h1{
@@ -84,6 +89,7 @@ h2{
 	font-size: 30px;
 	color: #1D6154
 }
+
 nav ul {
 	display: flex;
 	align-items: center;
@@ -100,6 +106,9 @@ nav li img {
 }
 
 li:hover {
+	color: #B1663C;
+}
+li a:hover {
 	color: #B1663C;
 }
 #introduction {
@@ -128,6 +137,10 @@ li:hover {
 #portfolio h2 {
 	text-align: center;
 	margin-bottom: 1em;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .filters {
@@ -220,3 +233,62 @@ footer nav ul {
 	margin: 2em
 }
 
+
+/* Style for the log in page */
+.login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 150px 200px 350px 200px;
+}
+
+.login h2 {
+	margin-bottom: 50px;
+}
+
+.login__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	width: 100%;
+}
+
+.login__inputs {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 100%;
+	height: 75px;
+	padding-left: 50%;
+}
+
+.login__inputs label {
+	margin-bottom: 7px;
+}
+
+.login__inputs input {
+	max-width: 380px;
+	width: 100%;
+	max-height: 51px;
+	height: 100%;
+	box-shadow: 0px 4px 14px 0px #00000017;
+	border: none;
+}
+
+.login button {
+	font-family: 'Syne';
+	font-weight: 700;
+	color: white;
+	background-color: #1D6154;
+	width: 180px;
+	text-align: center;
+	border-radius: 60px ;
+	padding: 8px;
+}
+
+.login a {
+	text-decoration: underline;
+}
