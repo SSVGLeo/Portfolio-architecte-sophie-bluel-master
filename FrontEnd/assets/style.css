@@ -58,6 +58,10 @@ header {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin: 50px 0px;
+}
+.header2 {
+	margin: 0px;
 }
 section {
 	margin: 50px 0
@@ -302,6 +306,7 @@ footer nav ul {
 	text-align: center;
 	border-radius: 60px ;
 	padding: 8px;
+	cursor: pointer;
 }
 
 .login a {
