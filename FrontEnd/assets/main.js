@@ -9,7 +9,8 @@ displayFilters();
 setupFilters();
 fetchWorks();
 
+// setupLogin();
 
 // displayWorks();
-// setupLogin();
+
 // setupModal();
